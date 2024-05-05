@@ -1,5 +1,5 @@
 const {messageConsumer} = require("./src/consumer")
 
-//calling a consumer function to 
+//calling a consumer function  
 messageConsumer();
-console.log(`Consumer Started Listning Events....`);
+console.log(`Consumer Started Listening Events....`);

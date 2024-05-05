@@ -14,25 +14,25 @@ To begin publishing events using RabbitMQ, follow these steps:
 # Consuming Events
 Once RabbitMQ is set up and running, you can start consuming events. Here's a basic outline of the process:
 
-**1.Establish Connection:**
+**1. Establish Connection:**
 Connect to RabbitMQ from your application using the appropriate client library.
 
-**2.Create Channel:**
+**2. Create Channel:**
 Create a channel on the connection you established in the last step.
 
-**3.Declare Exchange:**
+**3. Declare Exchange:**
 Declare an exchange on RabbitMQ. Exchanges receive messages from producers and route them to queues based on routing rules.
 
-**4.Declare Queue:** 
+**4. Declare Queue:** 
 Declare a queue to receive messages from RabbitMQ. Queues are where messages are stored until they are processed by consumers.
 
-**5.Bind Queue to Exchange:**
+**5. Bind Queue to Exchange:**
 Bind the queue to one or more exchanges. Exchanges route messages to queues based on routing rules.
 
-**6.Consume Messages:**
+**6. Consume Messages:**
 Start consuming messages from the queue. Messages will be delivered to your application as they arrive in the queue.
 
-**7.Process Messages:**
+**7. Process Messages:**
 Process the received messages according to your application's logic. This may involve parsing message data, performing business logic, and updating application state.
 
 ## Run Locally
